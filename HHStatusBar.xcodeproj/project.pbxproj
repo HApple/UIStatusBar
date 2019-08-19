@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD848F2E230AA9AB009EE47A /* VC-Base-NO.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD848F2A230AA9AB009EE47A /* VC-Base-NO.plist */; };
+		CD848F33230AA9AB009EE47A /* VC-Base-YES.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD848F2B230AA9AB009EE47A /* VC-Base-YES.plist */; };
+		CD848F38230AA9AB009EE47A /* UINavigationController-Base-YES.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD848F2C230AA9AB009EE47A /* UINavigationController-Base-YES.plist */; };
+		CD848F3D230AA9AB009EE47A /* UITabarController-Base-YES.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD848F2D230AA9AB009EE47A /* UITabarController-Base-YES.plist */; };
 		CDDD75B1230A674600EF6A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD75B0230A674600EF6A66 /* AppDelegate.m */; };
 		CDDD75B4230A674600EF6A66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD75B3230A674600EF6A66 /* ViewController.m */; };
 		CDDD75B7230A674600EF6A66 /* VC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDD75B5230A674600EF6A66 /* VC.storyboard */; };
@@ -36,6 +40,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD848F2A230AA9AB009EE47A /* VC-Base-NO.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VC-Base-NO.plist"; sourceTree = "<group>"; };
+		CD848F2B230AA9AB009EE47A /* VC-Base-YES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VC-Base-YES.plist"; sourceTree = "<group>"; };
+		CD848F2C230AA9AB009EE47A /* UINavigationController-Base-YES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UINavigationController-Base-YES.plist"; sourceTree = "<group>"; };
+		CD848F2D230AA9AB009EE47A /* UITabarController-Base-YES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UITabarController-Base-YES.plist"; sourceTree = "<group>"; };
 		CDDD75AC230A674600EF6A66 /* VC-Base-NO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VC-Base-NO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDD75AF230A674600EF6A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDDD75B0230A674600EF6A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,14 +52,10 @@
 		CDDD75B6230A674600EF6A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VC.storyboard; sourceTree = "<group>"; };
 		CDDD75B8230A674700EF6A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDD75BB230A674700EF6A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CDDD75BD230A674700EF6A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDD75BE230A674700EF6A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDDD75D2230A67DA00EF6A66 /* VC-Base-YES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VC-Base-YES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDD75D3230A67DA00EF6A66 /* HHStatusBar copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HHStatusBar copy-Info.plist"; path = "/Users/ng/Desktop/StatusBar/HHStatusBar/HHStatusBar copy-Info.plist"; sourceTree = "<absolute>"; };
 		CDDD75E1230A67DB00EF6A66 /* UINavigationController-Base-YES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UINavigationController-Base-YES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDD75E2230A67DB00EF6A66 /* HHStatusBar copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HHStatusBar copy copy-Info.plist"; path = "/Users/ng/Desktop/StatusBar/HHStatusBar/HHStatusBar copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		CDDD75F0230A67DD00EF6A66 /* UITabarController-Base-YES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabarController-Base-YES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDD75F1230A67DD00EF6A66 /* HHStatusBar copy copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HHStatusBar copy copy copy-Info.plist"; path = "/Users/ng/Desktop/StatusBar/HHStatusBar/HHStatusBar copy copy copy-Info.plist"; sourceTree = "<absolute>"; };
 		CDDD75F2230A688C00EF6A66 /* UINavigationController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UINavigationController.storyboard; sourceTree = "<group>"; };
 		CDDD75F4230A68AC00EF6A66 /* UITabbarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITabbarController.storyboard; sourceTree = "<group>"; };
 		CDDD75F9230A6B8300EF6A66 /* HHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHNavigationController.h; sourceTree = "<group>"; };
@@ -95,9 +99,6 @@
 			children = (
 				CDDD75AE230A674600EF6A66 /* HHStatusBar */,
 				CDDD75AD230A674600EF6A66 /* Products */,
-				CDDD75D3230A67DA00EF6A66 /* HHStatusBar copy-Info.plist */,
-				CDDD75E2230A67DB00EF6A66 /* HHStatusBar copy copy-Info.plist */,
-				CDDD75F1230A67DD00EF6A66 /* HHStatusBar copy copy copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,9 +125,12 @@
 				CDDD75B5230A674600EF6A66 /* VC.storyboard */,
 				CDDD75F2230A688C00EF6A66 /* UINavigationController.storyboard */,
 				CDDD75F4230A68AC00EF6A66 /* UITabbarController.storyboard */,
+				CD848F2C230AA9AB009EE47A /* UINavigationController-Base-YES.plist */,
+				CD848F2D230AA9AB009EE47A /* UITabarController-Base-YES.plist */,
+				CD848F2A230AA9AB009EE47A /* VC-Base-NO.plist */,
+				CD848F2B230AA9AB009EE47A /* VC-Base-YES.plist */,
 				CDDD75B8230A674700EF6A66 /* Assets.xcassets */,
 				CDDD75BA230A674700EF6A66 /* LaunchScreen.storyboard */,
-				CDDD75BD230A674700EF6A66 /* Info.plist */,
 				CDDD75BE230A674700EF6A66 /* main.m */,
 			);
 			path = HHStatusBar;
@@ -244,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDD75BC230A674700EF6A66 /* LaunchScreen.storyboard in Resources */,
+				CD848F2E230AA9AB009EE47A /* VC-Base-NO.plist in Resources */,
 				CDDD75B9230A674700EF6A66 /* Assets.xcassets in Resources */,
 				CDDD75B7230A674600EF6A66 /* VC.storyboard in Resources */,
 			);
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDD75CC230A67DA00EF6A66 /* LaunchScreen.storyboard in Resources */,
+				CD848F33230AA9AB009EE47A /* VC-Base-YES.plist in Resources */,
 				CDDD75CD230A67DA00EF6A66 /* Assets.xcassets in Resources */,
 				CDDD75CE230A67DA00EF6A66 /* VC.storyboard in Resources */,
 			);
@@ -264,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDD75DB230A67DB00EF6A66 /* LaunchScreen.storyboard in Resources */,
+				CD848F38230AA9AB009EE47A /* UINavigationController-Base-YES.plist in Resources */,
 				CDDD75DC230A67DB00EF6A66 /* Assets.xcassets in Resources */,
 				CDDD75F3230A688C00EF6A66 /* UINavigationController.storyboard in Resources */,
 			);
@@ -274,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDD75EA230A67DD00EF6A66 /* LaunchScreen.storyboard in Resources */,
+				CD848F3D230AA9AB009EE47A /* UITabarController-Base-YES.plist in Resources */,
 				CDDD75F5230A68AC00EF6A66 /* UITabbarController.storyboard in Resources */,
 				CDDD75EB230A67DD00EF6A66 /* Assets.xcassets in Resources */,
 			);
@@ -463,7 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HHStatusBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/VC-Base-NO.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HHStatusBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/VC-Base-NO.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,7 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HHStatusBar copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/VC-Base-YES.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,7 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HHStatusBar copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/VC-Base-YES.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,7 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HHStatusBar copy copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/UINavigationController-Base-YES.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HHStatusBar copy copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/UINavigationController-Base-YES.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -559,7 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HHStatusBar copy copy copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/UITabarController-Base-YES.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -575,7 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HHStatusBar copy copy copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HHStatusBar/UITabarController-Base-YES.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
