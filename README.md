@@ -158,4 +158,4 @@ iOS7之后添加的方法	推荐使用
 
 [iOS状态栏详解](https://www.jianshu.com/p/4196d7cf95f4)
 
-[谈一谈iOS开发中info.plist中的View controller-based status bar appearance属性](
+[谈一谈iOS开发中info.plist中的View controller-based status bar appearance属性](https://www.jianshu.com/p/334e6974303a)
